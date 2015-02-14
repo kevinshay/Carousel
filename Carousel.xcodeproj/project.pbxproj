@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EE5D0E41A8DC234004DF221 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5D0E31A8DC234004DF221 /* TutorialViewController.swift */; };
+		5EE5D0E61A8DCE49004DF221 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5D0E51A8DCE49004DF221 /* FeedViewController.swift */; };
+		5EE5D0E81A8DCFD3004DF221 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5D0E71A8DCFD3004DF221 /* SettingsViewController.swift */; };
+		5EE5D0ED1A8DDA38004DF221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE5D0EB1A8DDA38004DF221 /* Main.storyboard */; };
+		5EE5D0EF1A8DDB41004DF221 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5D0EE1A8DDB41004DF221 /* MessagesViewController.swift */; };
 		F7F27C9C1A8AF24000B53D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27C9B1A8AF24000B53D5B /* AppDelegate.swift */; };
 		F7F27C9E1A8AF24000B53D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27C9D1A8AF24000B53D5B /* ViewController.swift */; };
-		F7F27CA11A8AF24000B53D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F27C9F1A8AF24000B53D5B /* Main.storyboard */; };
 		F7F27CA31A8AF24000B53D5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F27CA21A8AF24000B53D5B /* Images.xcassets */; };
 		F7F27CA61A8AF24000B53D5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F27CA41A8AF24000B53D5B /* LaunchScreen.xib */; };
 		F7F27CB21A8AF24000B53D5B /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27CB11A8AF24000B53D5B /* CarouselTests.swift */; };
+		F7F27CBC1A8AF48500B53D5B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27CBB1A8AF48500B53D5B /* Common.swift */; };
+		F7F27CBE1A8AF54000B53D5B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27CBD1A8AF54000B53D5B /* IntroViewController.swift */; };
+		F7F27CC01A8AFA6C00B53D5B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F27CBF1A8AFA6C00B53D5B /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EE5D0E31A8DC234004DF221 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		5EE5D0E51A8DCE49004DF221 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5EE5D0E71A8DCFD3004DF221 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5EE5D0EC1A8DDA38004DF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE5D0EE1A8DDB41004DF221 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		F7F27C961A8AF24000B53D5B /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F27C9A1A8AF24000B53D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F27C9B1A8AF24000B53D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F27C9D1A8AF24000B53D5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7F27CA01A8AF24000B53D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F27CA21A8AF24000B53D5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7F27CA51A8AF24000B53D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7F27CAB1A8AF24000B53D5B /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F27CB01A8AF24000B53D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F27CB11A8AF24000B53D5B /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		F7F27CBB1A8AF48500B53D5B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F7F27CBD1A8AF54000B53D5B /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F7F27CBF1A8AFA6C00B53D5B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +93,14 @@
 			children = (
 				F7F27C9B1A8AF24000B53D5B /* AppDelegate.swift */,
 				F7F27C9D1A8AF24000B53D5B /* ViewController.swift */,
-				F7F27C9F1A8AF24000B53D5B /* Main.storyboard */,
+				F7F27CBB1A8AF48500B53D5B /* Common.swift */,
+				F7F27CBD1A8AF54000B53D5B /* IntroViewController.swift */,
+				F7F27CBF1A8AFA6C00B53D5B /* SignInViewController.swift */,
+				5EE5D0E71A8DCFD3004DF221 /* SettingsViewController.swift */,
+				5EE5D0E51A8DCE49004DF221 /* FeedViewController.swift */,
+				5EE5D0EB1A8DDA38004DF221 /* Main.storyboard */,
+				5EE5D0EE1A8DDB41004DF221 /* MessagesViewController.swift */,
+				5EE5D0E31A8DC234004DF221 /* TutorialViewController.swift */,
 				F7F27CA21A8AF24000B53D5B /* Images.xcassets */,
 				F7F27CA41A8AF24000B53D5B /* LaunchScreen.xib */,
 				F7F27C991A8AF24000B53D5B /* Supporting Files */,
@@ -192,7 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F27CA11A8AF24000B53D5B /* Main.storyboard in Resources */,
+				5EE5D0ED1A8DDA38004DF221 /* Main.storyboard in Resources */,
 				F7F27CA61A8AF24000B53D5B /* LaunchScreen.xib in Resources */,
 				F7F27CA31A8AF24000B53D5B /* Images.xcassets in Resources */,
 			);
@@ -213,7 +234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F27C9E1A8AF24000B53D5B /* ViewController.swift in Sources */,
+				F7F27CBC1A8AF48500B53D5B /* Common.swift in Sources */,
 				F7F27C9C1A8AF24000B53D5B /* AppDelegate.swift in Sources */,
+				5EE5D0EF1A8DDB41004DF221 /* MessagesViewController.swift in Sources */,
+				F7F27CC01A8AFA6C00B53D5B /* SignInViewController.swift in Sources */,
+				5EE5D0E41A8DC234004DF221 /* TutorialViewController.swift in Sources */,
+				F7F27CBE1A8AF54000B53D5B /* IntroViewController.swift in Sources */,
+				5EE5D0E61A8DCE49004DF221 /* FeedViewController.swift in Sources */,
+				5EE5D0E81A8DCFD3004DF221 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +264,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7F27C9F1A8AF24000B53D5B /* Main.storyboard */ = {
+		5EE5D0EB1A8DDA38004DF221 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7F27CA01A8AF24000B53D5B /* Base */,
+				5EE5D0EC1A8DDA38004DF221 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -405,6 +433,7 @@
 				F7F27CB71A8AF24000B53D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F27CB81A8AF24000B53D5B /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				F7F27CBA1A8AF24000B53D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
