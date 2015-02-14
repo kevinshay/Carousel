@@ -23,10 +23,13 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
         scrollView.delegate = self
         scrollView.contentSize = CGSize (width: 1280, height: 568)
+        
+        self.view.bringSubviewToFront(self.toFeedContainer)
+        self.toFeedContainer.alpha = 0
        
-        //toFeedContainer.hidden()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,20 +38,45 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        println(scrollView.contentOffset.x)
-        
         var page = Int(scrollView.contentOffset.x / 320)
         pageControl.currentPage = page
         
-        if (page == 4) {
-        delay(1.0, { () -> () in
-           //self.toFeedContainer.show()
-        })
+        if (page == 3) {
+            
+           // UIView.animateWithDuration(1.0, delay: 0.5, options:nil, animations: { () -> Void in
+             //    self.toFeedContainer.alpha = 1
+               // }, completion:nil) }
+            
+            NSLog("did scroll")
+           
+       
+         
+            
+            
+            
+            
         }
-    
     }
     
+
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        var page = Int(scrollView.contentOffset.x / 320)
+        if (page == 3) {
+            
+            UIView.animateWithDuration(0.3, delay: 0.5, options: nil, animations: { () -> Void in
+                self.pageControl.alpha = 0
+                }, completion: { (Bool) -> Void in
+                    UIView.animateWithDuration(0.2, delay: 0.0, options: nil, animations: { () -> Void in
+                        self.toFeedContainer.alpha = 1
+                        }, completion:nil)
+                    
+            })
+
+        }
+    }
+
     
+
     /*
     // MARK: - Navigation
 
@@ -59,6 +87,6 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
     }
     */
     
-    
-
 }
+
+
